@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+h1, h2 {
+  color: #4CAF50;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 5px;
+}
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+  
+  
+}
+
+.logo h1 {
+  display: inline;
+  margin-left: 10px;
+  
+}
+#container {
+  margin: 0 auto;
+  padding: 10px 10%;
+  background-color: #fff;
+  border-radius: 5px;
+  
+}
+
+h1 {
+  text-align: center;
+  
+}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.mySlides {
+  display: none;
+}
+
+.slideshow-container img {
+  width: 100%;
+  height: auto;
+}
+
+#timeline {
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+th {
+  background-color: slategrey;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e0e0e0;
+}
+
+.form-section {
+  margin-top: 20px;
+}
+
+.form-section label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-section input[type="text"],
+.form-section input[type="password"],
+.form-section input[type="email"],
+.form-section input[type="number"],
+.form-section select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+
+.form-section input[type="radio"] {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.interests-container {
+  margin-top: 10px;
+}
+
+.interest-option {
+  margin-right: 10px;
+}
+
+.submit-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submit-btn input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
